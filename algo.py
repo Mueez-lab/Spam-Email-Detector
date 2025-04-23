@@ -45,7 +45,7 @@ y_test = y_test.astype('int')
 model = LogisticRegression()
 model.fit(X_train_features,y_train) # This trains the model using your training data.
 prediction_on_trainning_data = model.predict(X_train_features)  # To check how well the model learned the training data. It is going to return [0,1,1 ...] 1st is spam second is ham ...
-accuracy_on_training_data = accuracy_score(y_train,prediction_on_trainning_data) # cheack the accuracy
+accuracy_on_training_data = accuracy_score(y_train,prediction_on_trainning_data) # check the accuracy
 print(accuracy_on_training_data)
 
 prediction_on_testing_data = model.predict(X_test_features) # to test how well it performs on unseen data
