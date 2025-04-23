@@ -49,4 +49,3 @@ Spam
 
 ---
 
-Let me know if you want to include installation instructions or a screenshot!
